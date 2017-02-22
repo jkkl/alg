@@ -1,4 +1,4 @@
-package alg.chapter7;
+package introduction_to_algorithms.chapter7;
 
 /**
  * Created by yuanzhuo on 2017/2/22.
