@@ -24,7 +24,7 @@ public class AddTwoNumbers {
         System.out.println();
     }
 
-    //ÕıĞòÁĞ±í£º 100 £º 1->0->0
+    //?????Ğ±? 100 ?? 1->0->0
     public static ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         if (l1 == null && l2 != null)
             return l2;
@@ -81,7 +81,7 @@ public class AddTwoNumbers {
         return result;
     }
 
-    //·´ĞòÁĞ±í£º 100 £º 1->0->0
+    //?????Ğ±? 100 ?? 1->0->0
     public static ListNode addTwoNumbersReverse(ListNode l1, ListNode l2) {
         if (l1 == null && l2 != null)
             return l2;
@@ -119,7 +119,7 @@ public class AddTwoNumbers {
             tail = new_tail;
             la=la.next;
         }
-        //×î¸ßÎ»ÓĞ½øÎ»
+        //å¤„ç†æœ€é«˜ä½æœ‰è¿›ä½
         if (over_ten != 0){
             ListNode new_tail = new ListNode(over_ten);
             tail.next = new_tail;
