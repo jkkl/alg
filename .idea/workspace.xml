@@ -64,11 +64,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CutRod.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CutRod.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/CutRod.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57191396">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MatrixChainOrder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/MatrixChainOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.11982249">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -92,16 +102,6 @@
               <folding>
                 <element signature="imports" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuckSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter7/QuckSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/leetcode/Atoi.java" />
         <option value="$PROJECT_DIR$/src/main/java/other/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/CutRod.java" />
+        <option value="$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/MatrixChainOrder.java" />
       </list>
     </option>
   </component>
@@ -403,27 +404,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CutRod">
-    <configuration default="false" name="QuckSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="introduction_to_algorithms.chapter7.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="introduction_to_algorithms.chapter7.QuckSort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="alg" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.MatrixChainOrder">
     <configuration default="false" name="ReverseInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -492,6 +473,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="introduction_to_algorithms.chapter15.CutRod" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="alg" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MatrixChainOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="introduction_to_algorithms.chapter15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="introduction_to_algorithms.chapter15.MatrixChainOrder" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -978,19 +979,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.QuckSort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.ReverseInteger" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Atoi" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Fibonacci" />
-      <item index="4" class="java.lang.String" itemvalue="Application.CutRod" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ReverseInteger" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Atoi" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
+      <item index="3" class="java.lang.String" itemvalue="Application.CutRod" />
+      <item index="4" class="java.lang.String" itemvalue="Application.MatrixChainOrder" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.CutRod" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Fibonacci" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Atoi" />
-        <item index="3" class="java.lang.String" itemvalue="Application.ReverseInteger" />
-        <item index="4" class="java.lang.String" itemvalue="Application.QuckSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.MatrixChainOrder" />
+        <item index="1" class="java.lang.String" itemvalue="Application.CutRod" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Fibonacci" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Atoi" />
+        <item index="4" class="java.lang.String" itemvalue="Application.ReverseInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -1019,12 +1020,12 @@
       <workItem from="1487557949574" duration="12129000" />
       <workItem from="1487639020200" duration="12701000" />
       <workItem from="1487812151251" duration="13652000" />
-      <workItem from="1488159522106" duration="13103000" />
+      <workItem from="1488159522106" duration="20993000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135085000" />
+    <option name="totallyTimeSpent" value="142975000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1357" y="-9" width="1938" height="1064" extended-state="6" />
@@ -1038,7 +1039,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3759563" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2262295" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20588236" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1100,8 +1101,14 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/MatrixChainOrder.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="12" />
+      <option name="time" value="13" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1110,81 +1117,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://E:/Program Files/Java/jdk1.6.0_43/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="685" column="0" selection-start-line="685" selection-start-column="0" selection-end-line="685" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#115569#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#13893#13894#0" expanded="false" />
-            <element signature="e#13945#13946#0" expanded="false" />
-            <element signature="e#19570#19571#0" expanded="false" />
-            <element signature="e#19616#19617#0" expanded="false" />
-            <element signature="e#21553#21554#0" expanded="false" />
-            <element signature="e#21590#21591#0" expanded="false" />
-            <element signature="e#23479#23480#0" expanded="false" />
-            <element signature="e#23507#23508#0" expanded="false" />
-            <element signature="e#23763#23764#0" expanded="false" />
-            <element signature="e#23789#23790#0" expanded="false" />
-            <element signature="e#30379#30380#0" expanded="false" />
-            <element signature="e#30448#30449#0" expanded="false" />
-            <element signature="e#37320#37321#0" expanded="false" />
-            <element signature="e#37377#37378#0" expanded="false" />
-            <element signature="e#47632#47633#0" expanded="false" />
-            <element signature="e#47696#47697#0" expanded="false" />
-            <element signature="e#55791#55792#0" expanded="false" />
-            <element signature="e#55828#55829#0" expanded="false" />
-            <element signature="e#56441#56442#0" expanded="false" />
-            <element signature="e#56497#56498#0" expanded="false" />
-            <element signature="e#58530#58531#0" expanded="false" />
-            <element signature="e#58560#58561#0" expanded="false" />
-            <element signature="e#62469#62470#0" expanded="false" />
-            <element signature="e#62511#62512#0" expanded="false" />
-            <element signature="e#65740#65741#0" expanded="false" />
-            <element signature="e#65771#65772#0" expanded="false" />
-            <element signature="e#69255#69256#0" expanded="false" />
-            <element signature="e#69294#69295#0" expanded="false" />
-            <element signature="e#72693#72694#0" expanded="false" />
-            <element signature="e#72737#72738#0" expanded="false" />
-            <element signature="e#75286#75287#0" expanded="false" />
-            <element signature="e#75345#75346#0" expanded="false" />
-            <element signature="e#79559#79560#0" expanded="false" />
-            <element signature="e#79610#79611#0" expanded="false" />
-            <element signature="e#79994#79995#0" expanded="false" />
-            <element signature="e#80043#80044#0" expanded="false" />
-            <element signature="e#88036#88037#0" expanded="false" />
-            <element signature="e#88093#88094#0" expanded="false" />
-            <element signature="e#89486#89487#0" expanded="false" />
-            <element signature="e#89524#89525#0" expanded="false" />
-            <element signature="e#95870#95871#0" expanded="false" />
-            <element signature="e#95925#95926#0" expanded="false" />
-            <element signature="e#102001#102002#0" expanded="false" />
-            <element signature="e#102056#102057#0" expanded="false" />
-            <element signature="e#104172#104173#0" expanded="false" />
-            <element signature="e#104192#104193#0" expanded="false" />
-            <element signature="e#108849#108850#0" expanded="false" />
-            <element signature="e#108904#108905#0" expanded="false" />
-            <element signature="e#109411#109412#0" expanded="false" />
-            <element signature="e#109443#109444#0" expanded="false" />
-            <element signature="e#110589#110590#0" expanded="false" />
-            <element signature="e#110636#110637#0" expanded="false" />
-            <element signature="e#111536#111537#0" expanded="false" />
-            <element signature="e#111585#111586#0" expanded="false" />
-            <element signature="e#111978#111979#0" expanded="false" />
-            <element signature="e#112014#112015#0" expanded="false" />
-            <element signature="e#112835#112836#0" expanded="false" />
-            <element signature="e#112881#112882#0" expanded="false" />
-            <element signature="e#113316#113317#0" expanded="false" />
-            <element signature="e#113359#113360#0" expanded="false" />
-            <element signature="e#113801#113802#0" expanded="false" />
-            <element signature="e#113834#113835#0" expanded="false" />
-            <element signature="e#114284#114285#0" expanded="false" />
-            <element signature="e#114318#114319#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1622,8 +1554,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/CutRod.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57191396">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="27" selection-start-line="40" selection-start-column="27" selection-end-line="40" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/MatrixChainOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11982249">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="44" />
           <folding />
         </state>
       </provider>
