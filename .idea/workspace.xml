@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LCS_15_4.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LCS_15_4.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/LCS_15_4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
+            <state vertical-scroll-proportion="2.2366865">
+              <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -74,11 +74,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MatrixChainOrder.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MatrixChainOrder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/MatrixChainOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11982249">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -169,6 +169,7 @@
         <option value="$PROJECT_DIR$/src/main/java/other/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/CutRod.java" />
         <option value="$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/MatrixChainOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/LCS_15_4.java" />
       </list>
     </option>
   </component>
@@ -1020,12 +1021,12 @@
       <workItem from="1487557949574" duration="12129000" />
       <workItem from="1487639020200" duration="12701000" />
       <workItem from="1487812151251" duration="13652000" />
-      <workItem from="1488159522106" duration="20993000" />
+      <workItem from="1488159522106" duration="23522000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142975000" />
+    <option name="totallyTimeSpent" value="145504000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1357" y="-9" width="1938" height="1064" extended-state="6" />
@@ -1494,14 +1495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/LCS_15_4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="36" selection-start-line="61" selection-start-column="36" selection-end-line="61" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/leetcode/lengthOfLongestSunstring.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1562,8 +1555,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/MatrixChainOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11982249">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/introduction_to_algorithms/chapter15/LCS_15_4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2366865">
+          <caret line="56" column="19" selection-start-line="56" selection-start-column="19" selection-end-line="56" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -2,16 +2,20 @@ package introduction_to_algorithms.chapter15;
 
 /**
  * Created by yuanzhuo on 2017/2/16.
- * ×î³¤¹«¹²×ÓĞòÁĞ ¶¯Ì¬¹æ»®
+ * åŠ¨æ€è§„åˆ’ æœ€é•¿å…¬å…±å­åºåˆ—
+ *              0                   ,if i = 0 || j == 0
+ * c[i][j] =    c[i-1][j-1] + 1     ,if i,j > 0 && Ai = Bj
+                max{c[i][j-1],c[i-1][j]}    ï¼Œif i,j>0 ** Ai!=Bj
+
  */
-public class LCS_15_4 {
+ public class LCS_15_4 {
     public static int LCS(String A, String B){
         if (A.length() == 0 || B.length() == 0)
             return 0;
         int ALen = A.length();
         int BLen = B.length();
-        int c[][] = new int[ALen+1][BLen+1];//¼ÇÂ¼LCSµÄ³¤¶È£¬×Ôµ×ÏòÉÏ
-        int path[][] = new int[ALen][BLen]; //¼ÇÂ¼LCSdµÄÂ·¾¶,ÖµÎª±ê¼ÇÀ´µÄ·½Ïò£¬3£º(i-1,j-1)+1; 2:(i-1,j)+1; 1:(i,j-1)+1
+        int c[][] = new int[ALen+1][BLen+1];//c[i][j] ä¸º Aiï¼ŒBjçš„LCSçš„é•¿åº¦
+        int path[][] = new int[ALen][BLen]; //LCSçš„è·¯å¾„æ ‡è®°ï¼Œç”¨äºå›æº¯LCS 3:(i-1,j-1)+1; 2:(i-1,j)+1; 1:(i,j-1)+1
 
         for (int i = 0; i<ALen;i++){
             for (int j = 0; j<BLen;j++){
@@ -23,7 +27,7 @@ public class LCS_15_4 {
         int tag = 0;
         for (int i = 1; i <= ALen; i++){
             for (int j = 1; j <= BLen; j++){
-                if (A.charAt(i-1) == B.charAt(j-1)){//×îÓÅ×Ó½á¹¹£¬×Ôµ×ÏòÉÏ¹¹½¨
+                if (A.charAt(i-1) == B.charAt(j-1)){//è‡ªåº•å‘ä¸Šæ„å»ºï¼Œæœ€ä¼˜å­ç»“æ„
                     len = c[i-1][j-1]+1;
                     tag = 3;
                 }else if (c[i-1][j] > c[i][j-1]){
@@ -50,7 +54,7 @@ public class LCS_15_4 {
         return c[ALen][BLen];
     }
 
-    //¸ù¾İÂ·¾¶±ê¼Ç´òÓ¡LCS
+    //æ ¹æ®è·¯å¾„æ ‡è®°ï¼Œå›æº¯å‡ºLCS
     public static void printPath(int[][] path, String a, int i, int j){
         if (i < 0 || j < 0)
             return;
